@@ -1,4 +1,17 @@
 # zsaheal.github.io
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
 this is a website 
 helloworld haha
 <h6> portfolio </h6>
