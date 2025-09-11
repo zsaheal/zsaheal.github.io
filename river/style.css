@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&display=swap');
+
+
+.cossette-titre-regular {
+    font-family: "Cossette Titre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cossette-titre-bold {
+    font-family: "Cossette Titre", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Cossette Titre', sans-serif;
+    background-color: #768948;
+    --tab-bg: #C08497;
+    --tab-bg-active: black;
+    --tab-text: black;
+    --tab-text-active: white;
+    padding: 2rem;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.some-tabs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.tab-button{
+    appearance: none;
+    border: 0;
+    background: var(--tab-bg);
+    color: var(--tab-text);
+    padding: 1rem 1rem;
+    letter-spacing: 2px;
+    font-family: 'Cossette Titre', sans-serif;
+    border-right: 2px solid black;
+    border-top:2px  solid black;
+    &.is-active{
+        background: var(--tab-bg-active);
+        color: var(--tab-text-active);
+    }
+}
+.panel-of-the-tabs{
+    display: none;
+    border: 2px solid black;
+    padding: 2rem;
+    background: #F2E9DC;
+    &.is-active{
+        display: block;
+    }
+}
+.tab-items{
+    border: 2px #774C60;
+}
+
+.h2{
+    test-transform: uppercase;
+    font-weight: bold;
+    color: #774C60
+}
